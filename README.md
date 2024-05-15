@@ -33,5 +33,5 @@ Run the following command to generate the dependency report, as recommended [her
 gradle -I init.gradle --dependency-verification=off --no-configuration-cache --no-configure-on-demand :ForceDependencyResolutionPlugin_resolveAllDependencies
 ```
 
-If you then look in `build/dependency-graph-snapshots` you will not be able to find the spotless gradle plugin dependency
+If you then look in `build/reports/dependency-graph-snapshots` you will not be able to find the spotless gradle plugin dependency
 listed above. This would imply it's not capturing all the buildscript / plugin dependencies. 
