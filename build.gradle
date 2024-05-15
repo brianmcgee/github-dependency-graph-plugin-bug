@@ -1,0 +1,70 @@
+// activate dependency locking for buildscript dependencies e.g. plugins
+buildscript {
+    configurations.classpath {
+        resolutionStrategy.activateDependencyLocking()
+        dependencyLocking {
+            lockFile = file("lockfiles/buildscript-gradle.lockfile")
+        }
+    }
+}
+
+plugins {
+    // Apply the application plugin to add support for building a CLI application in Java.
+    id 'application'
+    id 'com.diffplug.spotless' version '6.25.0'
+}
+
+spotless {
+    java {
+        importOrder()
+        removeUnusedImports()
+        googleJavaFormat('1.21.0')
+        indentWithSpaces(4)
+    }
+}
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+dependencies {
+    // Use JUnit test framework.
+    testImplementation libs.junit
+
+    // This dependency is used by the application.
+    implementation libs.guava
+}
+
+// Apply a specific Java toolchain to ease working on different environments.
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'org.example.App'
+}
+
+
+// activate dependency locking for build dependencies
+dependencyLocking {
+    lockAllConfigurations()
+    lockFile = file("lockfiles/gradle.lockfile")
+}
+
+// utility for generating all lock files
+tasks.register('resolveAndLockAll') {
+    notCompatibleWithConfigurationCache("Filters configurations at execution time")
+    doFirst {
+        assert gradle.startParameter.writeDependencyLocks : "$path must be run from the command line with the `--write-locks` flag"
+    }
+    doLast {
+        configurations.findAll {
+            // Add any custom filtering on the configurations to be resolved
+            it.canBeResolved
+        }.each { it.resolve() }
+    }
+}
