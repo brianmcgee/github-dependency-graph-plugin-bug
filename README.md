@@ -1,6 +1,7 @@
 # Github Dependency Graph Plugin Bug
 
-> *NOT A BUG*: this is expected behaviour, explained [here](https://github.com/gradle/github-dependency-graph-gradle-plugin/issues/138)
+> [!NOTE]  
+> **NOT A BUG**: this is expected behaviour, explained [here](https://github.com/gradle/github-dependency-graph-gradle-plugin/issues/138)
 
 This repository is designed to reproduce a possible issue with the [Github Dependency Graph Plugin] whereby `buildscript`
 dependencies are not being captured by the `SimpleDependencyGraphPlugin`.
