@@ -1,0 +1,1654 @@
+[ {
+  "rootOrigin" : {
+    "id" : "build :",
+    "path" : ":"
+  },
+  "configurationName" : "detachedConfiguration1",
+  "scope" : "Unknown",
+  "allDependencies" : [ ]
+}, {
+  "rootOrigin" : {
+    "id" : "project :",
+    "path" : ":"
+  },
+  "configurationName" : "classpath",
+  "scope" : "Unknown",
+  "allDependencies" : [ {
+    "id" : "com.diffplug.spotless:spotless-plugin-gradle:6.25.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.spotless",
+      "module" : "spotless-plugin-gradle",
+      "version" : "6.25.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-io:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.diffplug.spotless:spotless-lib:2.45.0", "com.diffplug.spotless:spotless-lib-extra:2.45.0" ]
+  }, {
+    "id" : "com.diffplug.durian:durian-core:1.2.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.durian",
+      "module" : "durian-core",
+      "version" : "1.2.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.diffplug.durian:durian-io:1.2.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.durian",
+      "module" : "durian-io",
+      "version" : "1.2.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-collect:1.2.0" ]
+  }, {
+    "id" : "com.diffplug.durian:durian-collect:1.2.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.durian",
+      "module" : "durian-collect",
+      "version" : "1.2.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0" ]
+  }, {
+    "id" : "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.eclipse.jgit",
+      "module" : "org.eclipse.jgit",
+      "version" : "6.7.0.202309050840-r"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.googlecode.javaewah:JavaEWAH:1.2.3", "org.slf4j:slf4j-api:1.7.36", "commons-codec:commons-codec:1.16.0" ]
+  }, {
+    "id" : "com.googlecode.javaewah:JavaEWAH:1.2.3",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.googlecode.javaewah",
+      "module" : "JavaEWAH",
+      "version" : "1.2.3"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.slf4j:slf4j-api:1.7.36",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.slf4j",
+      "module" : "slf4j-api",
+      "version" : "1.7.36"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "commons-codec:commons-codec:1.16.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "commons-codec",
+      "module" : "commons-codec",
+      "version" : "1.16.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.diffplug.spotless:spotless-lib:2.45.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.spotless",
+      "module" : "spotless-lib",
+      "version" : "2.45.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.diffplug.spotless:spotless-lib-extra:2.45.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.spotless",
+      "module" : "spotless-lib-extra",
+      "version" : "2.45.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.googlecode.concurrent-trees:concurrent-trees:2.6.1", "dev.equo.ide:solstice:1.7.5", "com.diffplug.spotless:spotless-lib:2.45.0" ]
+  }, {
+    "id" : "com.googlecode.concurrent-trees:concurrent-trees:2.6.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.googlecode.concurrent-trees",
+      "module" : "concurrent-trees",
+      "version" : "2.6.1"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "dev.equo.ide:solstice:1.7.5",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "dev.equo.ide",
+      "module" : "solstice",
+      "version" : "1.7.5"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.tukaani:xz:1.9", "com.squareup.okhttp3:okhttp:4.12.0", "org.slf4j:slf4j-api:1.7.36", "com.diffplug.durian:durian-swt.os:4.2.2", "org.eclipse.platform:org.eclipse.osgi:3.18.300" ]
+  }, {
+    "id" : "org.tukaani:xz:1.9",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.tukaani",
+      "module" : "xz",
+      "version" : "1.9"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.squareup.okhttp3:okhttp:4.12.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.squareup.okhttp3",
+      "module" : "okhttp",
+      "version" : "4.12.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.squareup.okio:okio:3.6.0", "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10" ]
+  }, {
+    "id" : "com.squareup.okio:okio:3.6.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.squareup.okio",
+      "module" : "okio",
+      "version" : "3.6.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.squareup.okio:okio-jvm:3.6.0" ]
+  }, {
+    "id" : "com.squareup.okio:okio-jvm:3.6.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.squareup.okio",
+      "module" : "okio-jvm",
+      "version" : "3.6.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10", "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10" ]
+  }, {
+    "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : "1.9.10"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jetbrains.kotlin:kotlin-stdlib:1.9.10", "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10" ]
+  }, {
+    "id" : "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib",
+      "version" : "1.9.10"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10", "org.jetbrains:annotations:13.0" ]
+  }, {
+    "id" : "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-common",
+      "version" : "1.9.10"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.jetbrains:annotations:13.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains",
+      "module" : "annotations",
+      "version" : "13.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk7",
+      "version" : "1.9.10"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jetbrains.kotlin:kotlin-stdlib:1.9.10" ]
+  }, {
+    "id" : "com.diffplug.durian:durian-swt.os:4.2.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.durian",
+      "module" : "durian-swt.os",
+      "version" : "4.2.2"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.eclipse.platform:org.eclipse.osgi:3.18.300",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.eclipse.platform",
+      "module" : "org.eclipse.osgi",
+      "version" : "3.18.300"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.diffplug.spotless:spotless-plugin-gradle:6.25.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.spotless",
+      "module" : "spotless-plugin-gradle",
+      "version" : "6.25.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-io:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.diffplug.spotless:spotless-lib:2.45.0", "com.diffplug.spotless:spotless-lib-extra:2.45.0" ]
+  }, {
+    "id" : "com.diffplug.spotless:spotless-plugin-gradle:6.25.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.spotless",
+      "module" : "spotless-plugin-gradle",
+      "version" : "6.25.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-io:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.diffplug.spotless:spotless-lib:2.45.0", "com.diffplug.spotless:spotless-lib-extra:2.45.0" ]
+  }, {
+    "id" : "com.diffplug.durian:durian-core:1.2.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.durian",
+      "module" : "durian-core",
+      "version" : "1.2.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.diffplug.durian:durian-io:1.2.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.durian",
+      "module" : "durian-io",
+      "version" : "1.2.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-collect:1.2.0" ]
+  }, {
+    "id" : "com.diffplug.durian:durian-collect:1.2.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.durian",
+      "module" : "durian-collect",
+      "version" : "1.2.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0" ]
+  }, {
+    "id" : "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.eclipse.jgit",
+      "module" : "org.eclipse.jgit",
+      "version" : "6.7.0.202309050840-r"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.googlecode.javaewah:JavaEWAH:1.2.3", "org.slf4j:slf4j-api:1.7.36", "commons-codec:commons-codec:1.16.0" ]
+  }, {
+    "id" : "com.diffplug.spotless:spotless-lib:2.45.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.spotless",
+      "module" : "spotless-lib",
+      "version" : "2.45.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.diffplug.spotless:spotless-lib-extra:2.45.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.spotless",
+      "module" : "spotless-lib-extra",
+      "version" : "2.45.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.googlecode.concurrent-trees:concurrent-trees:2.6.1", "dev.equo.ide:solstice:1.7.5", "com.diffplug.spotless:spotless-lib:2.45.0" ]
+  }, {
+    "id" : "com.googlecode.javaewah:JavaEWAH:1.2.3",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.googlecode.javaewah",
+      "module" : "JavaEWAH",
+      "version" : "1.2.3"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.slf4j:slf4j-api:1.7.36",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.slf4j",
+      "module" : "slf4j-api",
+      "version" : "1.7.36"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "commons-codec:commons-codec:1.16.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "commons-codec",
+      "module" : "commons-codec",
+      "version" : "1.16.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.googlecode.concurrent-trees:concurrent-trees:2.6.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.googlecode.concurrent-trees",
+      "module" : "concurrent-trees",
+      "version" : "2.6.1"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "dev.equo.ide:solstice:1.7.5",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "dev.equo.ide",
+      "module" : "solstice",
+      "version" : "1.7.5"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.tukaani:xz:1.9", "com.squareup.okhttp3:okhttp:4.12.0", "org.slf4j:slf4j-api:1.7.36", "com.diffplug.durian:durian-swt.os:4.2.2", "org.eclipse.platform:org.eclipse.osgi:3.18.300" ]
+  }, {
+    "id" : "org.tukaani:xz:1.9",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.tukaani",
+      "module" : "xz",
+      "version" : "1.9"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.squareup.okhttp3:okhttp:4.12.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.squareup.okhttp3",
+      "module" : "okhttp",
+      "version" : "4.12.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.squareup.okio:okio:3.6.0", "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10" ]
+  }, {
+    "id" : "com.diffplug.durian:durian-swt.os:4.2.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.durian",
+      "module" : "durian-swt.os",
+      "version" : "4.2.2"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.eclipse.platform:org.eclipse.osgi:3.18.300",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.eclipse.platform",
+      "module" : "org.eclipse.osgi",
+      "version" : "3.18.300"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.squareup.okio:okio:3.6.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.squareup.okio",
+      "module" : "okio",
+      "version" : "3.6.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.squareup.okio:okio-jvm:3.6.0" ]
+  }, {
+    "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk8",
+      "version" : "1.9.10"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jetbrains.kotlin:kotlin-stdlib:1.9.10", "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10" ]
+  }, {
+    "id" : "com.squareup.okio:okio-jvm:3.6.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.squareup.okio",
+      "module" : "okio-jvm",
+      "version" : "3.6.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10", "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10" ]
+  }, {
+    "id" : "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib",
+      "version" : "1.9.10"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10", "org.jetbrains:annotations:13.0" ]
+  }, {
+    "id" : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-jdk7",
+      "version" : "1.9.10"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jetbrains.kotlin:kotlin-stdlib:1.9.10" ]
+  }, {
+    "id" : "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains.kotlin",
+      "module" : "kotlin-stdlib-common",
+      "version" : "1.9.10"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.jetbrains:annotations:13.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jetbrains",
+      "module" : "annotations",
+      "version" : "13.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  } ]
+}, {
+  "rootOrigin" : {
+    "id" : "project :",
+    "path" : ":"
+  },
+  "configurationName" : "compileClasspath",
+  "scope" : "Unknown",
+  "allDependencies" : [ {
+    "id" : "com.google.guava:guava:32.1.3-jre",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : "32.1.3-jre"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "com.google.guava:failureaccess:1.0.1", "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "com.google.code.findbugs:jsr305:3.0.2", "org.checkerframework:checker-qual:3.37.0", "com.google.errorprone:error_prone_annotations:2.21.1", "com.google.j2objc:j2objc-annotations:2.8" ]
+  }, {
+    "id" : "com.google.guava:failureaccess:1.0.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "failureaccess",
+      "version" : "1.0.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:3.0.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.code.findbugs",
+      "module" : "jsr305",
+      "version" : "3.0.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.checkerframework:checker-qual:3.37.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.checkerframework",
+      "module" : "checker-qual",
+      "version" : "3.37.0"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:2.21.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.errorprone",
+      "module" : "error_prone_annotations",
+      "version" : "2.21.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.j2objc:j2objc-annotations:2.8",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.j2objc",
+      "module" : "j2objc-annotations",
+      "version" : "2.8"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:guava:32.1.3-jre",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : "32.1.3-jre"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "com.google.guava:failureaccess:1.0.1", "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "com.google.code.findbugs:jsr305:3.0.2", "org.checkerframework:checker-qual:3.37.0", "com.google.errorprone:error_prone_annotations:2.21.1", "com.google.j2objc:j2objc-annotations:2.8" ]
+  }, {
+    "id" : "com.google.guava:failureaccess:1.0.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "failureaccess",
+      "version" : "1.0.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:3.0.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.code.findbugs",
+      "module" : "jsr305",
+      "version" : "3.0.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.checkerframework:checker-qual:3.37.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.checkerframework",
+      "module" : "checker-qual",
+      "version" : "3.37.0"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:2.21.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.errorprone",
+      "module" : "error_prone_annotations",
+      "version" : "2.21.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.j2objc:j2objc-annotations:2.8",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.j2objc",
+      "module" : "j2objc-annotations",
+      "version" : "2.8"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  } ]
+}, {
+  "rootOrigin" : {
+    "id" : "project :",
+    "path" : ":"
+  },
+  "configurationName" : "runtimeClasspath",
+  "scope" : "Unknown",
+  "allDependencies" : [ {
+    "id" : "com.google.guava:guava:32.1.3-jre",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : "32.1.3-jre"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "com.google.guava:failureaccess:1.0.1", "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "com.google.code.findbugs:jsr305:3.0.2", "org.checkerframework:checker-qual:3.37.0", "com.google.errorprone:error_prone_annotations:2.21.1" ]
+  }, {
+    "id" : "com.google.guava:failureaccess:1.0.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "failureaccess",
+      "version" : "1.0.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:3.0.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.code.findbugs",
+      "module" : "jsr305",
+      "version" : "3.0.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.checkerframework:checker-qual:3.37.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.checkerframework",
+      "module" : "checker-qual",
+      "version" : "3.37.0"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:2.21.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.errorprone",
+      "module" : "error_prone_annotations",
+      "version" : "2.21.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:guava:32.1.3-jre",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : "32.1.3-jre"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "com.google.guava:failureaccess:1.0.1", "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "com.google.code.findbugs:jsr305:3.0.2", "org.checkerframework:checker-qual:3.37.0", "com.google.errorprone:error_prone_annotations:2.21.1" ]
+  }, {
+    "id" : "com.google.guava:failureaccess:1.0.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "failureaccess",
+      "version" : "1.0.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:3.0.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.code.findbugs",
+      "module" : "jsr305",
+      "version" : "3.0.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.checkerframework:checker-qual:3.37.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.checkerframework",
+      "module" : "checker-qual",
+      "version" : "3.37.0"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:2.21.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.errorprone",
+      "module" : "error_prone_annotations",
+      "version" : "2.21.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  } ]
+}, {
+  "rootOrigin" : {
+    "id" : "project :",
+    "path" : ":"
+  },
+  "configurationName" : "testCompileClasspath",
+  "scope" : "Unknown",
+  "allDependencies" : [ {
+    "id" : "com.google.guava:guava:32.1.3-jre",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : "32.1.3-jre"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "com.google.guava:failureaccess:1.0.1", "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "com.google.code.findbugs:jsr305:3.0.2", "org.checkerframework:checker-qual:3.37.0", "com.google.errorprone:error_prone_annotations:2.21.1", "com.google.j2objc:j2objc-annotations:2.8" ]
+  }, {
+    "id" : "com.google.guava:failureaccess:1.0.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "failureaccess",
+      "version" : "1.0.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:3.0.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.code.findbugs",
+      "module" : "jsr305",
+      "version" : "3.0.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.checkerframework:checker-qual:3.37.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.checkerframework",
+      "module" : "checker-qual",
+      "version" : "3.37.0"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:2.21.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.errorprone",
+      "module" : "error_prone_annotations",
+      "version" : "2.21.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.j2objc:j2objc-annotations:2.8",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.j2objc",
+      "module" : "j2objc-annotations",
+      "version" : "2.8"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "junit:junit:4.13.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "junit",
+      "module" : "junit",
+      "version" : "4.13.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "org.hamcrest:hamcrest-core:1.3" ]
+  }, {
+    "id" : "org.hamcrest:hamcrest-core:1.3",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.hamcrest",
+      "module" : "hamcrest-core",
+      "version" : "1.3"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:guava:32.1.3-jre",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : "32.1.3-jre"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "com.google.guava:failureaccess:1.0.1", "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "com.google.code.findbugs:jsr305:3.0.2", "org.checkerframework:checker-qual:3.37.0", "com.google.errorprone:error_prone_annotations:2.21.1", "com.google.j2objc:j2objc-annotations:2.8" ]
+  }, {
+    "id" : "junit:junit:4.13.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "junit",
+      "module" : "junit",
+      "version" : "4.13.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "org.hamcrest:hamcrest-core:1.3" ]
+  }, {
+    "id" : "com.google.guava:failureaccess:1.0.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "failureaccess",
+      "version" : "1.0.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:3.0.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.code.findbugs",
+      "module" : "jsr305",
+      "version" : "3.0.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.checkerframework:checker-qual:3.37.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.checkerframework",
+      "module" : "checker-qual",
+      "version" : "3.37.0"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:2.21.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.errorprone",
+      "module" : "error_prone_annotations",
+      "version" : "2.21.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.j2objc:j2objc-annotations:2.8",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.j2objc",
+      "module" : "j2objc-annotations",
+      "version" : "2.8"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.hamcrest:hamcrest-core:1.3",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.hamcrest",
+      "module" : "hamcrest-core",
+      "version" : "1.3"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  } ]
+}, {
+  "rootOrigin" : {
+    "id" : "project :",
+    "path" : ":"
+  },
+  "configurationName" : "testRuntimeClasspath",
+  "scope" : "Unknown",
+  "allDependencies" : [ {
+    "id" : "com.google.guava:guava:32.1.3-jre",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : "32.1.3-jre"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "com.google.guava:failureaccess:1.0.1", "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "com.google.code.findbugs:jsr305:3.0.2", "org.checkerframework:checker-qual:3.37.0", "com.google.errorprone:error_prone_annotations:2.21.1" ]
+  }, {
+    "id" : "com.google.guava:failureaccess:1.0.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "failureaccess",
+      "version" : "1.0.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:3.0.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.code.findbugs",
+      "module" : "jsr305",
+      "version" : "3.0.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.checkerframework:checker-qual:3.37.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.checkerframework",
+      "module" : "checker-qual",
+      "version" : "3.37.0"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:2.21.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.errorprone",
+      "module" : "error_prone_annotations",
+      "version" : "2.21.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "junit:junit:4.13.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "junit",
+      "module" : "junit",
+      "version" : "4.13.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "org.hamcrest:hamcrest-core:1.3" ]
+  }, {
+    "id" : "org.hamcrest:hamcrest-core:1.3",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.hamcrest",
+      "module" : "hamcrest-core",
+      "version" : "1.3"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:guava:32.1.3-jre",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "guava",
+      "version" : "32.1.3-jre"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "com.google.guava:failureaccess:1.0.1", "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava", "com.google.code.findbugs:jsr305:3.0.2", "org.checkerframework:checker-qual:3.37.0", "com.google.errorprone:error_prone_annotations:2.21.1" ]
+  }, {
+    "id" : "junit:junit:4.13.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "junit",
+      "module" : "junit",
+      "version" : "4.13.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ "org.hamcrest:hamcrest-core:1.3" ]
+  }, {
+    "id" : "com.google.guava:failureaccess:1.0.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "failureaccess",
+      "version" : "1.0.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.guava",
+      "module" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.code.findbugs:jsr305:3.0.2",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.code.findbugs",
+      "module" : "jsr305",
+      "version" : "3.0.2"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.checkerframework:checker-qual:3.37.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.checkerframework",
+      "module" : "checker-qual",
+      "version" : "3.37.0"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "com.google.errorprone:error_prone_annotations:2.21.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.google.errorprone",
+      "module" : "error_prone_annotations",
+      "version" : "2.21.1"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.hamcrest:hamcrest-core:1.3",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.hamcrest",
+      "module" : "hamcrest-core",
+      "version" : "1.3"
+    },
+    "repositoryUrl" : "https://repo.maven.apache.org/maven2",
+    "dependencies" : [ ]
+  } ]
+} ]

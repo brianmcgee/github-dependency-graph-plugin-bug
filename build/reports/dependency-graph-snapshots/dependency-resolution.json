@@ -1,0 +1,341 @@
+[ {
+  "dependency" : "com.diffplug.spotless:spotless-plugin-gradle:6.25.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.diffplug.durian:durian-core:1.2.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.diffplug.durian:durian-io:1.2.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.diffplug.durian:durian-collect:1.2.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.googlecode.javaewah:JavaEWAH:1.2.3",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.slf4j:slf4j-api:1.7.36",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "commons-codec:commons-codec:1.16.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.diffplug.spotless:spotless-lib:2.45.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.diffplug.spotless:spotless-lib-extra:2.45.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.googlecode.concurrent-trees:concurrent-trees:2.6.1",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "dev.equo.ide:solstice:1.7.5",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.tukaani:xz:1.9",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.squareup.okhttp3:okhttp:4.12.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.squareup.okio:okio:3.6.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.squareup.okio:okio-jvm:3.6.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.jetbrains.kotlin:kotlin-stdlib:1.9.10",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.jetbrains:annotations:13.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.diffplug.durian:durian-swt.os:4.2.2",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.eclipse.platform:org.eclipse.osgi:3.18.300",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.google.guava:guava:32.1.3-jre",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "compileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "runtimeClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testRuntimeClasspath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.google.guava:failureaccess:1.0.1",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "compileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "runtimeClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testRuntimeClasspath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "compileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "runtimeClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testRuntimeClasspath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.google.code.findbugs:jsr305:3.0.2",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "compileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "runtimeClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testRuntimeClasspath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.checkerframework:checker-qual:3.37.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "compileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "runtimeClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testRuntimeClasspath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.google.errorprone:error_prone_annotations:2.21.1",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "compileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "runtimeClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testRuntimeClasspath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.google.j2objc:j2objc-annotations:2.8",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "compileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "junit:junit:4.13.2",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testRuntimeClasspath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.hamcrest:hamcrest-core:1.3",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "testCompileClasspath",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "testRuntimeClasspath",
+    "scope" : "Unknown"
+  } ]
+} ]
