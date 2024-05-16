@@ -33,6 +33,12 @@ Run the following command to generate the dependency report, as recommended [her
 gradle -I init.gradle --dependency-verification=off --no-configuration-cache --no-configure-on-demand :ForceDependencyResolutionPlugin_resolveAllDependencies
 ```
 
-If you then look in `build/reports/dependency-graph-snapshots` you will not find an entry for `com.diffplug.spotless:com.diffplug.spotless.gradle.plugin:6.25.0`. This would imply it's not capturing all the buildscript / plugin dependencies. 
+If you then look in `build/reports/dependency-graph-snapshots` you will not find an entry for the following plugin 
+dependencies:
+
+* `com.github.johnrengelman.shadow:com.github.johnrengelman.shadow.gradle.plugin:8.1.1`
+* `com.diffplug.spotless:com.diffplug.spotless.gradle.plugin:6.25.0`
+
+This would imply it's not capturing all the buildscript / plugin dependencies. 
 
 > Note: I've included the build report that I'm seeing

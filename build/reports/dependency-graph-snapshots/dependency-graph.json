@@ -5,6 +5,60 @@
   },
   "configurationName" : "detachedConfiguration1",
   "scope" : "Unknown",
+  "allDependencies" : [ {
+    "id" : "com.gradle:gradle-enterprise-gradle-plugin:3.16.2",
+    "origin" : {
+      "id" : "build :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.gradle",
+      "module" : "gradle-enterprise-gradle-plugin",
+      "version" : "3.16.2"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  } ]
+}, {
+  "rootOrigin" : {
+    "id" : "build :",
+    "path" : ":"
+  },
+  "configurationName" : "classpath",
+  "scope" : "Unknown",
+  "allDependencies" : [ {
+    "id" : "com.gradle:gradle-enterprise-gradle-plugin:3.16.2",
+    "origin" : {
+      "id" : "build :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.gradle",
+      "module" : "gradle-enterprise-gradle-plugin",
+      "version" : "3.16.2"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  } ]
+}, {
+  "rootOrigin" : {
+    "id" : "build :",
+    "path" : ":"
+  },
+  "configurationName" : "detachedConfiguration1",
+  "scope" : "Unknown",
+  "allDependencies" : [ ]
+}, {
+  "rootOrigin" : {
+    "id" : "build :",
+    "path" : ":"
+  },
+  "configurationName" : "detachedConfiguration2",
+  "scope" : "Unknown",
   "allDependencies" : [ ]
 }, {
   "rootOrigin" : {
@@ -359,7 +413,7 @@
     "repositoryUrl" : "https://plugins.gradle.org/m2",
     "dependencies" : [ ]
   }, {
-    "id" : "com.diffplug.spotless:spotless-plugin-gradle:6.25.0",
+    "id" : "com.github.johnrengelman:shadow:8.1.1",
     "origin" : {
       "id" : "project :",
       "path" : ":"
@@ -367,12 +421,177 @@
     "isDirect" : true,
     "isProject" : false,
     "coordinates" : {
-      "group" : "com.diffplug.spotless",
-      "module" : "spotless-plugin-gradle",
-      "version" : "6.25.0"
+      "group" : "com.github.johnrengelman",
+      "module" : "shadow",
+      "version" : "8.1.1"
     },
     "repositoryUrl" : "https://plugins.gradle.org/m2",
-    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-io:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.diffplug.spotless:spotless-lib:2.45.0", "com.diffplug.spotless:spotless-lib-extra:2.45.0" ]
+    "dependencies" : [ "org.jdom:jdom2:2.0.6.1", "org.ow2.asm:asm:9.4", "org.ow2.asm:asm-commons:9.4", "commons-io:commons-io:2.11.0", "org.apache.ant:ant:1.10.13", "org.codehaus.plexus:plexus-utils:3.5.1", "org.apache.logging.log4j:log4j-core:2.20.0", "org.vafer:jdependency:2.8.0" ]
+  }, {
+    "id" : "org.jdom:jdom2:2.0.6.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jdom",
+      "module" : "jdom2",
+      "version" : "2.0.6.1"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.ow2.asm:asm:9.4",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.ow2.asm",
+      "module" : "asm",
+      "version" : "9.4"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.ow2.asm:asm-commons:9.4",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.ow2.asm",
+      "module" : "asm-commons",
+      "version" : "9.4"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.ow2.asm:asm:9.4", "org.ow2.asm:asm-tree:9.4" ]
+  }, {
+    "id" : "org.ow2.asm:asm-tree:9.4",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.ow2.asm",
+      "module" : "asm-tree",
+      "version" : "9.4"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.ow2.asm:asm:9.4" ]
+  }, {
+    "id" : "commons-io:commons-io:2.11.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "commons-io",
+      "module" : "commons-io",
+      "version" : "2.11.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.apache.ant:ant:1.10.13",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.ant",
+      "module" : "ant",
+      "version" : "1.10.13"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.apache.ant:ant-launcher:1.10.13" ]
+  }, {
+    "id" : "org.apache.ant:ant-launcher:1.10.13",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.ant",
+      "module" : "ant-launcher",
+      "version" : "1.10.13"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.codehaus.plexus:plexus-utils:3.5.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.codehaus.plexus",
+      "module" : "plexus-utils",
+      "version" : "3.5.1"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-core:2.20.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.logging.log4j",
+      "module" : "log4j-core",
+      "version" : "2.20.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.apache.logging.log4j:log4j-api:2.20.0" ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-api:2.20.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.logging.log4j",
+      "module" : "log4j-api",
+      "version" : "2.20.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.vafer:jdependency:2.8.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : false,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.vafer",
+      "module" : "jdependency",
+      "version" : "2.8.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
   }, {
     "id" : "com.diffplug.spotless:spotless-plugin-gradle:6.25.0",
     "origin" : {
@@ -388,6 +607,51 @@
     },
     "repositoryUrl" : "https://plugins.gradle.org/m2",
     "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-io:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.diffplug.spotless:spotless-lib:2.45.0", "com.diffplug.spotless:spotless-lib-extra:2.45.0" ]
+  }, {
+    "id" : "com.github.johnrengelman:shadow:8.1.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.github.johnrengelman",
+      "module" : "shadow",
+      "version" : "8.1.1"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jdom:jdom2:2.0.6.1", "org.ow2.asm:asm:9.4", "org.ow2.asm:asm-commons:9.4", "commons-io:commons-io:2.11.0", "org.apache.ant:ant:1.10.13", "org.codehaus.plexus:plexus-utils:3.5.1", "org.apache.logging.log4j:log4j-core:2.20.0", "org.vafer:jdependency:2.8.0" ]
+  }, {
+    "id" : "com.diffplug.spotless:spotless-plugin-gradle:6.25.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.diffplug.spotless",
+      "module" : "spotless-plugin-gradle",
+      "version" : "6.25.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-io:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.diffplug.spotless:spotless-lib:2.45.0", "com.diffplug.spotless:spotless-lib-extra:2.45.0" ]
+  }, {
+    "id" : "com.github.johnrengelman:shadow:8.1.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "com.github.johnrengelman",
+      "module" : "shadow",
+      "version" : "8.1.1"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.jdom:jdom2:2.0.6.1", "org.ow2.asm:asm:9.4", "org.ow2.asm:asm-commons:9.4", "commons-io:commons-io:2.11.0", "org.apache.ant:ant:1.10.13", "org.codehaus.plexus:plexus-utils:3.5.1", "org.apache.logging.log4j:log4j-core:2.20.0", "org.vafer:jdependency:2.8.0" ]
   }, {
     "id" : "com.diffplug.durian:durian-core:1.2.0",
     "origin" : {
@@ -479,6 +743,141 @@
     "repositoryUrl" : "https://plugins.gradle.org/m2",
     "dependencies" : [ "com.diffplug.durian:durian-core:1.2.0", "com.diffplug.durian:durian-collect:1.2.0", "org.eclipse.jgit:org.eclipse.jgit:6.7.0.202309050840-r", "com.googlecode.concurrent-trees:concurrent-trees:2.6.1", "dev.equo.ide:solstice:1.7.5", "com.diffplug.spotless:spotless-lib:2.45.0" ]
   }, {
+    "id" : "org.jdom:jdom2:2.0.6.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.jdom",
+      "module" : "jdom2",
+      "version" : "2.0.6.1"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.ow2.asm:asm:9.4",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.ow2.asm",
+      "module" : "asm",
+      "version" : "9.4"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.ow2.asm:asm-commons:9.4",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.ow2.asm",
+      "module" : "asm-commons",
+      "version" : "9.4"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.ow2.asm:asm:9.4", "org.ow2.asm:asm-tree:9.4" ]
+  }, {
+    "id" : "commons-io:commons-io:2.11.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "commons-io",
+      "module" : "commons-io",
+      "version" : "2.11.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.apache.ant:ant:1.10.13",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.ant",
+      "module" : "ant",
+      "version" : "1.10.13"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.apache.ant:ant-launcher:1.10.13" ]
+  }, {
+    "id" : "org.codehaus.plexus:plexus-utils:3.5.1",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.codehaus.plexus",
+      "module" : "plexus-utils",
+      "version" : "3.5.1"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-core:2.20.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.logging.log4j",
+      "module" : "log4j-core",
+      "version" : "2.20.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.apache.logging.log4j:log4j-api:2.20.0" ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-core:2.20.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.logging.log4j",
+      "module" : "log4j-core",
+      "version" : "2.20.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.apache.logging.log4j:log4j-api:2.20.0" ]
+  }, {
+    "id" : "org.vafer:jdependency:2.8.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.vafer",
+      "module" : "jdependency",
+      "version" : "2.8.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
     "id" : "com.googlecode.javaewah:JavaEWAH:1.2.3",
     "origin" : {
       "id" : "project :",
@@ -553,6 +952,51 @@
     },
     "repositoryUrl" : "https://plugins.gradle.org/m2",
     "dependencies" : [ "org.tukaani:xz:1.9", "com.squareup.okhttp3:okhttp:4.12.0", "org.slf4j:slf4j-api:1.7.36", "com.diffplug.durian:durian-swt.os:4.2.2", "org.eclipse.platform:org.eclipse.osgi:3.18.300" ]
+  }, {
+    "id" : "org.ow2.asm:asm-tree:9.4",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.ow2.asm",
+      "module" : "asm-tree",
+      "version" : "9.4"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ "org.ow2.asm:asm:9.4" ]
+  }, {
+    "id" : "org.apache.ant:ant-launcher:1.10.13",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.ant",
+      "module" : "ant-launcher",
+      "version" : "1.10.13"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
+  }, {
+    "id" : "org.apache.logging.log4j:log4j-api:2.20.0",
+    "origin" : {
+      "id" : "project :",
+      "path" : ":"
+    },
+    "isDirect" : true,
+    "isProject" : false,
+    "coordinates" : {
+      "group" : "org.apache.logging.log4j",
+      "module" : "log4j-api",
+      "version" : "2.20.0"
+    },
+    "repositoryUrl" : "https://plugins.gradle.org/m2",
+    "dependencies" : [ ]
   }, {
     "id" : "org.tukaani:xz:1.9",
     "origin" : {

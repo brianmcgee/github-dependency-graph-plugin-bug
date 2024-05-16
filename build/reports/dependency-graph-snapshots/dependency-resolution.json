@@ -1,4 +1,16 @@
 [ {
+  "dependency" : "com.gradle:gradle-enterprise-gradle-plugin:3.16.2",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "detachedConfiguration1",
+    "scope" : "Unknown"
+  }, {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
   "dependency" : "com.diffplug.spotless:spotless-plugin-gradle:6.25.0",
   "effectiveScope" : "Unknown",
   "resolvedBy" : [ {
@@ -176,6 +188,102 @@
   } ]
 }, {
   "dependency" : "org.eclipse.platform:org.eclipse.osgi:3.18.300",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "com.github.johnrengelman:shadow:8.1.1",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.jdom:jdom2:2.0.6.1",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.ow2.asm:asm:9.4",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.ow2.asm:asm-commons:9.4",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.ow2.asm:asm-tree:9.4",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "commons-io:commons-io:2.11.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.apache.ant:ant:1.10.13",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.apache.ant:ant-launcher:1.10.13",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.codehaus.plexus:plexus-utils:3.5.1",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.apache.logging.log4j:log4j-core:2.20.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.apache.logging.log4j:log4j-api:2.20.0",
+  "effectiveScope" : "Unknown",
+  "resolvedBy" : [ {
+    "path" : ":",
+    "configuration" : "classpath",
+    "scope" : "Unknown"
+  } ]
+}, {
+  "dependency" : "org.vafer:jdependency:2.8.0",
   "effectiveScope" : "Unknown",
   "resolvedBy" : [ {
     "path" : ":",
